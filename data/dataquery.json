@@ -1,0 +1,27 @@
+{
+    "data": [{
+        "name": "Zen",
+        "url": "/zen",
+        "text": "A Zen-like framework for web development.",
+        "img": "/yinyang.png"
+    },
+    {
+        "name": "Kapalbhati",
+        "url": "/kapalbhati",
+        "text": "A Kapalbhati-like framework for web development.",
+        "img": "/kapalbhati.png"
+    },
+    {
+        "name": "Shoonya",
+        "url": "/shoonya",
+        "text": "A Shoonya-like framework for web development.",
+        "img": "/shoonya.png"
+    },
+    {
+        "name": "Naddi Shuddhi",
+        "url": "/naddishuddhi",
+        "text": "A Naddi Shuddhi-like framework for web development.",
+        "img": "/nadishuddhi.png"
+    }
+    ]
+}
