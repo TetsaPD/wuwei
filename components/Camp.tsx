@@ -4,7 +4,7 @@ import data from "../data/dataquery.json";
 
 const camp = () => {
   return (
-    <div className="mt-10 border-2 border-black rounded-xl container-max mx-10 bg-gray-300">
+    <div className="px-5 py-5 my-5 border-2 border-black rounded-xl container-max mx-10 bg-gray-300">
       <div className="m-5 border-1 border-black">
         <div className="card-list">
           {data.data.map((data) => (

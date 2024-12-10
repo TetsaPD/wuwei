@@ -22,6 +22,30 @@
         "url": "/naddishuddhi",
         "text": "A Naddi Shuddhi-like framework for web development.",
         "img": "/nadishuddhi.png"
+    },
+    {
+        "name": "Yoga Nidra",
+        "url": "/yoganidra",
+        "text": "A Yoga Nidra-like framework for web development.",
+        "img": "/yoganidra.png"
+    },
+    {
+        "name": "Transcending Duality",
+        "url": "/transcendingduality",
+        "text": "A Transcending Duality-like framework for web development.",
+        "img": "/duality.png"
+    },
+    {
+        "name": "Qigong",
+        "url": "/qigong",
+        "text": "A Quigong-like framework for web development.",
+        "img": "/qigong.png"
+    },
+    {
+        "name": "Taiji",
+        "url": "/taiji",
+        "text": "A Taiji-like framework for web development.",
+        "img": "/taiji.png"
     }
     ]
 }
