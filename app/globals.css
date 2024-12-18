@@ -8,6 +8,8 @@
   --card: linear-gradient( 90deg, #e1ac00 0%, #a1c568 100%);
 }
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +25,6 @@ body {
 }
 
 .hero-text{
-  border: 1px solid rgba(255, 255, 255, 0.534);
-  border-radius: 4rem;
   box-shadow:inset 0 0 50px linear-gradient( 90deg, #e1ac00 0%, #a1c568 100%);
   padding: 0.5rem;
   font-weight: 700;
@@ -50,7 +50,7 @@ body {
 
 @layer utilities {
   .card-list{
-    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3
+    @apply grid grid-cols-1 lg:grid-cols-2  2xl:grid-cols-4 gap-3
   }
   .card{
     @apply transition-all duration-300 rounded-md border-2 border-black m-2 flex-col justify-between hover:bg-gray-100 px-2 py-2 xl:px-5 xl:py-5 lg:m-3 xl:m-5

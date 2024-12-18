@@ -1,50 +1,50 @@
 {
     "data": [{
         "name": "Zen",
-        "url": "/zen",
-        "text": "A Zen-like framework for web development.",
+        "url": "/yoga?=zen",
+        "text": "Meditative discipline emphasizing mindfulness and direct experiential understanding.",
         "img": "/yinyang.png"
     },
     {
         "name": "Kapalbhati",
-        "url": "/kapalbhati",
-        "text": "A Kapalbhati-like framework for web development.",
+        "url": "/yoga?q=kapalbhati",
+        "text": "Dynamic breathing exercise that detoxifies the body and energizes the mind through rapid exhalations and passive inhalations.",
         "img": "/kapalbhati.png"
     },
     {
         "name": "Shoonya",
-        "url": "/shoonya",
-        "text": "A Shoonya-like framework for web development.",
+        "url": "/yoga?q=shoonya",
+        "text": "Encourage conscious non-doing, allowing the mind to rest in a state of pure awareness and detachment.",
         "img": "/shoonya.png"
     },
     {
         "name": "Naddi Shuddhi",
-        "url": "/naddishuddhi",
-        "text": "A Naddi Shuddhi-like framework for web development.",
+        "url": "/yoga?q=nadishuddhi",
+        "text": "Alternate nostril breathing, balances energy channels and harmonizes the mind and body.",
         "img": "/nadishuddhi.png"
     },
     {
         "name": "Yoga Nidra",
-        "url": "/yoganidra",
-        "text": "A Yoga Nidra-like framework for web development.",
+        "url": "/yoga?q=yoganidra",
+        "text": "A guided meditative practice that induces deep relaxation and conscious awareness.",
         "img": "/yoganidra.png"
     },
     {
         "name": "Transcending Duality",
-        "url": "/transcendingduality",
-        "text": "A Transcending Duality-like framework for web development.",
+        "url": "/yoga?q=duality",
+        "text": "Moving beyond dichotomies like good and bad to experience the unity of existence.",
         "img": "/duality.png"
     },
     {
         "name": "Qigong",
-        "url": "/qigong",
-        "text": "A Quigong-like framework for web development.",
+        "url": "/yoga?q=qigong",
+        "text": "Ancient Chinese practice integrating movement, breath, and meditation to cultivate life energy (Qi).",
         "img": "/qigong.png"
     },
     {
         "name": "Taiji",
-        "url": "/taiji",
-        "text": "A Taiji-like framework for web development.",
+        "url": "/yoga?q=taiji",
+        "text": "Also called Tai Chi, is a martial art and meditative practice that harmonizes body and mind through slow, flowing movements.",
         "img": "/taiji.png"
     }
     ]

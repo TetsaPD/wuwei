@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Introduction from "./Introduction";
 
 const Hero = () => {
   return (
     <section>
-      <div className="relative my-4 px-10 py-10 border-2 border-black max-container ">
+      <div className="relative px-10 py-10 max-container ">
         <div className="absolute top-0">
           <Image
             src={"/heroimg.png"}
@@ -19,6 +20,7 @@ const Hero = () => {
           </h1>
         </div>
       </div>
+      <Introduction />
     </section>
   );
 };

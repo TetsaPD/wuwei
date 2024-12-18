@@ -4,7 +4,7 @@ import logo from "../public/yogalogo-t.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-800 p-4 flex-col justify-center items-center w-full py-10 px-10">
+    <footer className="bg-blue-800 flex-col justify-center items-center w-full py-10 px-10">
       <div className="grid grid-cols-3 ">
         <div className="flex-col flexCenter">
           <Image
@@ -16,7 +16,7 @@ const Footer = () => {
           ></Image>
         </div>
         <div className="flexCenter">
-          <p>About</p>
+          <a href="#">About</a>
         </div>
         <div></div>
       </div>

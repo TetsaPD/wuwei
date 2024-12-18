@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 interface CardProps {
   name: string;
@@ -21,7 +22,7 @@ const Card = ({ name, url, text, img }: CardProps) => {
 
       setTimeout(() => {
         window.location.href = url; // Replace with Next.js router.push(url) if needed
-      }, 20);
+      }, 0);
     }
   };
 
@@ -35,7 +36,7 @@ const Card = ({ name, url, text, img }: CardProps) => {
   };
 
   useEffect(() => {
-    if (window.innerWidth > 1250) {
+    if (window.innerWidth > 1440) {
       setIsNotHovered(false);
     }
   }, []);
@@ -45,10 +46,10 @@ const Card = ({ name, url, text, img }: CardProps) => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  });
 
   const handleResize = () => {
-    if (window.innerWidth > 1250) {
+    if (window.innerWidth > 1440) {
       if (isNotHovered) {
         setIsNotHovered(false);
       }
@@ -67,7 +68,7 @@ const Card = ({ name, url, text, img }: CardProps) => {
         >
           <div className="flexCenter col-span-1">
             <motion.div
-              animate={isClicked ? { scale: 2 } : { scale: 1 }}
+              animate={isClicked ? { scale: 0.8 } : { scale: 1 }}
               transition={{ duration: 0.2 }}
             >
               <Image
@@ -91,13 +92,13 @@ const Card = ({ name, url, text, img }: CardProps) => {
             >
               <p className="text-center">{text}</p>
             </motion.div>
-            <a
+            <Link
               href={url}
               className="btn_green text-center block"
               onClick={handleClick}
             >
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </div>

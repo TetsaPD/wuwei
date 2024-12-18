@@ -6,14 +6,20 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 5500",
+    "concurrently": "npx concurrently \"json-server --watch db.json --port 5500\" \"next dev --turbopack\""
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.8",
     "framer-motion": "^11.13.1",
+    "json-server": "^1.0.0-beta.3",
     "motion": "^11.13.1",
     "next": "15.0.4",
+    "openai": "^4.76.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.1",
     "wu-wei": "file:"
   },
   "devDependencies": {

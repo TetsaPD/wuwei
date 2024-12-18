@@ -3,6 +3,8 @@ import "./nav.css";
 import links from "../data/links.json";
 import logo from "../public/yogalogo-t.svg";
 import Image from "next/image";
+import Link from "next/link";
+import Dropdown from "./Dropdown";
 
 export default function NavBar() {
   return (
@@ -17,19 +19,13 @@ export default function NavBar() {
       <ul className="list-group ">
         {links.links.map((link) => (
           <li className="list-group-item" key={link.name}>
-            <a href={link.url} className=" hidden lg:block">
+            <Link href={link.url} className=" hidden lg:block">
               {link.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
-      <Image
-        src="/menu.svg"
-        alt="menu"
-        height={40}
-        width={40}
-        className="lg:hidden"
-      ></Image>
+      <Dropdown />
     </nav>
   );
 }

@@ -1,38 +1,49 @@
-nav{
-    height: 80px;
-    width: 100%;
-    background-color: #a8abaf;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #282c34;
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: #a8abaf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #282c34;
 }
 
-.list-group{
-    margin-right: 80px;
+.list-group {
+  margin-right: 80px;
 }
 
-.list-group-item{
-    list-style: none;
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
+.list-group-item {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
 }
 
-.list-group-item a{
-    text-decoration: none;
-    text-shadow: 0 0 1px #ffffff;
-    color: rgb(255, 255, 255);
-    transition: all ease-in-out 0.2s;
-    padding: 2px;
-    margin: 2px;
-    border-radius: 5px;
-    &:hover{
-        background-color: #282c34;
-        transition-property: text-shadow;
-    }
-    &:active{
-        box-shadow: inset 0 0 4px #ffffff;
-        transition-property: box-shadow;
-    }
+.list-group-item a {
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 0 1px #ffffff;
+  color: rgb(255, 255, 255);
+  transition: all ease-in-out 0.2s;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.list-group-item a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.list-group-item a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
